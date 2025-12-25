@@ -48,7 +48,7 @@ if not client.has_collection(COLLECTION_NAME):
         metric_type="COSINE", # Metric must match the index configuration
         auto_id=True
     )
-    print(f"✅ Created new collection: {COLLECTION_NAME}")
+    print(f"Created new collection: {COLLECTION_NAME}")
 
 # Text splitter configuration using LangChain
 text_splitter = RecursiveCharacterTextSplitter(
@@ -163,7 +163,7 @@ with keep.presenting():
             # Process any remaining data in the buffers
             process_encode_and_insert(force=True)
 
-        print("\n🎉 DATA LOADING COMPLETE! STARTING INDEX BUILD...")
+        print("\nDATA LOADING COMPLETE! STARTING INDEX BUILD...")
         
         # BUILD INDEX (HNSW)
         try:
