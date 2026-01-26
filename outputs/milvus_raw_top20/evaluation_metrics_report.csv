@@ -1,0 +1,11 @@
+﻿Metric,Value
+Total Queries,100.0
+MRR,0.5
+Hits@1,0.41
+Hits@5,0.62
+Hits@10,0.71
+Hits@20,0.75
+Recall@1,0.2128
+Recall@5,0.6015
+Recall@10,0.9393
+Recall@20,1.252

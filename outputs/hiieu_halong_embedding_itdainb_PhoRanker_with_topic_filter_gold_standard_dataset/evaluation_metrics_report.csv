@@ -1,0 +1,7 @@
+﻿Metric,Value,Description
+Total Queries,100.0,Total number of queries
+MRR,0.4575,Mean Reciprocal Rank
+Hits@1,0.43,Percentage of queries with at least one correct result at Rank 1
+Hits@5,0.5,Percentage of queries with at least one correct result in Top 5
+Recall@1,0.2188,Average Recall at Rank 1 (Correct Retrieved @ 1 / Total Relevant)
+Recall@5,0.4998,Average Recall at Rank 5 (Correct Retrieved @ 5 / Total Relevant)

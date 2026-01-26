@@ -1,0 +1,5 @@
+Candidate_Limit,Hits@20_Percentage,Avg_Latency_Seconds,Avg_Latency_ms
+20,37.4,0.1056,105.56
+50,38.6,0.2292,229.22
+100,38.7,0.4262,426.21
+200,38.7,0.8501,850.14

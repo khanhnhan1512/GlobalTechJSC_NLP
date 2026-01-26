@@ -1,0 +1,5 @@
+Candidate_Limit,Hits@20_Percentage,Avg_Latency_Seconds,Output_File
+20,85.0,0.1629,submission_results_limit_20.json
+50,84.0,0.2733,submission_results_limit_50.json
+100,85.0,0.4347,submission_results_limit_100.json
+200,84.0,0.8549,submission_results_limit_200.json

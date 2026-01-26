@@ -1,0 +1,5 @@
+﻿Metric,Value,Description
+Total Queries,100.0,Tổng số câu hỏi kiểm thử
+MRR,0.5393,"Mean Reciprocal Rank (Thứ hạng trung bình nghịch đảo - Càng cao càng tốt, Max 1.0)"
+Hits@1,0.49,Tỉ lệ đáp án đúng nằm ngay vị trí đầu tiên (Top 1)
+Hits@5,0.63,Tỉ lệ đáp án đúng nằm trong 5 kết quả đầu (Top 5)

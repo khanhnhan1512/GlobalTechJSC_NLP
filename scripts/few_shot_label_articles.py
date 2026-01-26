@@ -22,7 +22,7 @@ OUTPUT_FILE = os.path.join(PROJECT_ROOT, 'inputs', 'merged_news_100k_labeled.jso
 
 MODEL_NAME = "hiieu/halong_embedding"
 BATCH_SIZE = 64        
-LIMIT_ARTICLES = 10_0000 # Giới hạn số bài xử lý
+LIMIT_ARTICLES = 100000 # Giới hạn số bài xử lý
 CONFIDENCE_THRESHOLD = 0.25 
 
 # ==========================================

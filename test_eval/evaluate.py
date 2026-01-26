@@ -4,12 +4,12 @@ import numpy as np
 
 
 EMBED_MODEL = "hiieu/halong_embedding"
-# RERANKER_MODEL = "itdainb/PhoRanker"
+RERANKER_MODEL = "itdainb/PhoRanker"
 # RERANKER_MODEL = "cross-encoder/ms-marco-MiniLM-L6-v2"
-RERANKER_MODEL = "namdp-ptit/ViRanker"
+# RERANKER_MODEL = "namdp-ptit/ViRanker"
 
 INPUT_CSV_FILE = f'outputs/{EMBED_MODEL.replace("/", "_")}_{RERANKER_MODEL.replace("/", "_")}/benchmark_details_top5.csv'
-OUTPUT_METRICS_FILE = f'outputs/{EMBED_MODEL.replace("/", "_")}_{RERANKER_MODEL.replace("/", "_")}/evaluation_metrics_report.csv'
+OUTPUT_METRICS_FILE = f'outputs/{EMBED_MODEL.replace("/", "_")}_{RERANKER_MODEL.replace("/", "_")}_with_topic_filter/evaluation_metrics_report.csv'
 
 def calculate_metrics(input_path, output_path):
     print(f"Đang đọc dữ liệu từ: {input_path}")
