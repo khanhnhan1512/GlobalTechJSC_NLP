@@ -171,7 +171,7 @@ with keep.presenting():
         except: 
             pass
 
-        print("⏳ Building HNSW Index (M=16, ef=200)... Please wait...")
+        print("Building HNSW Index (M=16, ef=200)... Please wait...")
         start_build = time.time()
         
         client.create_index(
